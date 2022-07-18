@@ -1,0 +1,36 @@
+#topNav{
+    padding: 9px 0;
+    background: #ebebeb;
+}
+#topNav .top_left p{
+    color: #0a0d14;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+#topNav .top_left p a{
+    color: #f79837;
+}
+#topNav .top_right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#topNav .top_right li{
+    padding-left: 26px;
+    
+}
+#topNav .top_right li a i{
+    margin-right: 10px;
+}
+#topNav .top_right li a {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #000;
+    transition: all .3s ease-in-out .1s;
+}
+#topNav .top_right li a:hover {
+    color: #f79837;
+    transition: all .3s ease-in-out .1s;
+}
