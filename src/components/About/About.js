@@ -1,11 +1,12 @@
 import React from "react";
+import Layout from "../Layout";
 
 
 const About = () => {
     return (
-        <div>
-            About
-        </div>
+        <Layout title="About" id="about" >
+
+        </Layout>
     )
 }
 

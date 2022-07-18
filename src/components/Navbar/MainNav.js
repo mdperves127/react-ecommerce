@@ -45,16 +45,16 @@ const MainNav = () => {
                 navbarScroll>
                 <ul className="navIcons">
                   <li>
-                    <Link to="/"><i className="fa fa-heart"><span>4</span></i></Link>
+                    <Link to=""><i className="fa fa-heart"><span>4</span></i></Link>
                   </li>
                   <li>
-                    <Link to="/"><i className="fa fa-shopping-bag"><span>3</span></i></Link>
+                    <Link to=""><i className="fa fa-shopping-bag"><span>3</span></i></Link>
                   </li>
                   <li>
-                    <Link to="/"><i className="fa fa-search"></i></Link>
+                    <Link to=""><i className="fa fa-search"></i></Link>
                   </li>
                   <li>
-                    <Link to="/"><i className="fa fa-bars"></i></Link>
+                    <Link to=""><i className="fa fa-bars"></i></Link>
                   </li>
                 </ul>
               </Nav>

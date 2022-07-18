@@ -1,0 +1,79 @@
+#collections {
+    padding-top: 100px;
+}
+
+#collections .collection {
+    width: 100%;
+    height: 255px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+#collections .collection_middle {
+    height: 100%;
+}
+
+#collections .collection img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    transition: all linear 0.3s;
+    z-index: -1;
+}
+
+#collections .collection:hover img {
+    transform: scale(1.1) rotate(1deg);
+    overflow: hidden!important;
+    transition: all linear 0.3s;
+}
+
+#collections .collection .collection_detail {
+    margin-left: 60px;
+}
+#collections .collection .collection_detail .collection_one{
+    color: #f79837;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 20%;
+}
+#collections .collection .collection_detail .collection_one_next{
+    margin-top: 0;
+}
+#collections .collection .collection_detail .collection_two{
+    color: #f79837;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 5px 0;
+    margin-top: 90%;
+}
+#collections .collection .collection_detail h2{
+    padding: 5px 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #0a0d14;
+}
+#collections .collection .collection_detail h2.collection_two_next{
+    margin-top: 20%;
+}
+#collections .collection .collection_detail a{
+    margin-top: 20px;
+    padding: 10px 16px;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+    border-radius: 0;
+    border: 1px solid #000;
+    color: #fff;
+    background-color: #000;
+}
+#collections .collection .collection_detail a:hover{
+    color: #000;
+    background-color: #fff;
+    transition: all .3s ease-in-out .1s;
+}

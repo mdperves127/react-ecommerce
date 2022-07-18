@@ -1,13 +1,14 @@
 import React from "react";
-import MainNav from "../Navbar/MainNav";
-import TopNav from "../Navbar/TopNav";
+import Layout from "../Layout";
+import Banner from "./Banner/Banner";
+import Collection from "./Collection/Collection";
 
 const Home = () => {
     return (
-        <div>
-            <TopNav />
-            <MainNav />
-        </div>
+        <Layout title="Home" id="home" >
+            <Banner />
+            <Collection />
+        </Layout>
     )
 }
 

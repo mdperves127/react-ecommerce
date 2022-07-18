@@ -1,11 +1,12 @@
 import React from "react";
+import Layout from "../Layout";
 
 
 const Compare = () => {
     return(
-        <div>
-            Compare
-        </div>
+        <Layout title="Compare" id="compare" >
+
+        </Layout>
     )
 }
 
