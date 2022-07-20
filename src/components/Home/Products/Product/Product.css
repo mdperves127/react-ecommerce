@@ -1,0 +1,109 @@
+.product {
+    cursor: pointer;
+    position: relative;
+    margin-top: 30px;
+    box-shadow: 0 3px 15px 0 rgb(0 0 0 / 6%);
+}
+
+.product img {
+    z-index: 1;
+    max-width: 100%;
+    transition: all .3s ease 0s;
+    width: 100%;
+}
+
+.product .hover-image {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+
+.product:hover .hover-image {
+    opacity: 1;
+    transition: all .5s ease-in-out;
+    transform: rotate(1deg);
+}
+.product .badge{
+    position: absolute;
+    z-index: 8;
+    top: 18px;
+    left: 18px;
+    display: flex;
+    flex-direction: column;
+    background-color: #007a58;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    display: block;
+    padding: 0 7px;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 3px;
+    color: #fff;
+
+}
+
+.product .content .title a {
+    text-decoration: none;
+    color: #1d1d1d;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.product .content .price .new {
+    font-size: 16px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #212121;
+}
+
+.product .content .title a:hover {
+    color: #ff7004;
+}
+.product .add-to-cart{
+    width: 80%;
+    height: 45px;
+    border: 0;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    z-index: 8;
+    transition: all .3s ease-in-out;
+    opacity: 0;
+
+}
+.product:hover .add-to-cart{
+    bottom: 100px;
+    opacity: 1;
+}
+.product .wishlist{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    transition: all .3s ease 0s;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #212121;
+    z-index: 10;
+}

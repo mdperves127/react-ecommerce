@@ -1,3 +1,4 @@
+import React from 'react';
 import { Link } from 'react-router-dom';
 import './Collection.css';
 import collection1 from '../../../assets/collection/collection1.png';
